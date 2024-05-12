@@ -1,0 +1,157 @@
+/** @format */
+
+/* header elements */
+
+#header {
+  height: 50px;
+  width: 100%;
+  /* position: fixed; */
+  top: 0;
+}
+
+#nav-bar {
+  padding: 10px;
+  height: 90%;
+  margin: 0px 15px;
+}
+
+#nav-bar,
+#footer-text {
+  background: linear-gradient(to right, gold, lightgreen);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.tile {
+  width: auto;
+  height: 80%;
+  overflow: initial;
+  border-radius: 25px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.width-55 {
+  width: 55%;
+}
+
+.width-35 {
+  width: 35%;
+}
+.background {
+  background: linear-gradient(to right, lightgreen, green);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#nav-bar > div {
+  height: 70%;
+}
+
+.bold-links {
+  font-size: large;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.bold-links:hover {
+  font-size: larger;
+  font-weight: 550;
+  color: white;
+  text-shadow: 3px 3px 20px greenyellow, -2px 1px 30px white;
+}
+
+/* body elements */
+#main {
+  height: 80%;
+  justify-content: center;
+}
+
+.circle {
+  display: inline-flex;
+  height: 300px;
+  width: 450px;
+  border-radius: 50%;
+  margin: 2% 10%;
+  box-shadow: lightgreen 0px 5px 15px;
+}
+
+#name {
+  display: inline-flex;
+  font-size: 100px;
+  text-shadow: 10px 15px 20px lightgreen;
+  background: linear-gradient(to right, lightgreen, gold);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#name-and-profile-photo > div {
+  margin: 20px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#profile-statement {
+  margin: 20px 10px;
+  display: inline-block;
+  font-size: medium;
+}
+
+.education-cards,
+.project-cards,
+.stack-cards,
+.publication-cards {
+  border-radius: 15px;
+  display: inline-block;
+  margin: 25px 5%;
+  box-shadow: lightgreen 0px 10px 10px -20px, lightgreen 0px 10px 50px -30px,
+    lightgreen 0px 10px 10px 0px inset;
+}
+
+#education,
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.titles {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  justify-content: center;
+  text-shadow: 10px 15px 20px lightgreen;
+  background: linear-gradient(to right, darkgreen, gold);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stack-main-heading {
+  font-weight: 900;
+}
+
+.stack-sub-heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+/* footer elements */
+#footer {
+  margin-top: auto;
+  height: 40px;
+  width: 100%;
+}

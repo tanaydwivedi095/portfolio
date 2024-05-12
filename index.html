@@ -1,0 +1,635 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanay Dwivedi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="font-family:cursive;">
+    <header id="header" class="background">
+      <!-- This section contains the header for the portfolio consisting of
+            1. Nav Bar
+        -->
+      <nav id="nav-bar" class="">
+        <!-- This is the nav bar consisting of links to 
+                1. Coding profiles (Leetcode, HackerRank, GeeksForGeeks)
+                2. Social Accounts (LinkedIn, GitHub)
+            -->
+        <div class="flex">
+          <div id="leetcode" class="inline-block tile center-text">
+            <span>
+              <a
+                href="https://leetcode.com/u/tanaydwivedi095/"
+                class="decoration-none bold-links"
+                >LeetCode</a
+              >
+            </span>
+          </div>
+          <div id="hackerrank" class="inline-block tile center-text">
+            <span>
+              <a
+                href="https://www.hackerrank.com/profile/Tanay_Dwivedi"
+                class="decoration-none bold-links"
+                >HackerRank</a
+              >
+            </span>
+          </div>
+          <div id="geeksforgeeks" class="inline-block tile center-text">
+            <span>
+              <a
+                href="https://www.geeksforgeeks.org/user/tanaydwivedi095/"
+                class="decoration-none bold-links"
+                >GeeksForGeeks</a
+              >
+            </span>
+          </div>
+          <div id="linkedin" class="inline-block tile center-text">
+            <span>
+              <a
+                href="https://www.linkedin.com/in/tanay-dwivedi-8601b3204/"
+                class="decoration-none bold-links"
+                >LinkedIn</a
+              >
+            </span>
+          </div>
+          <div id="github" class="inline-block tile center-text">
+            <span>
+              <a
+                href="https://github.com/tanaydwivedi095"
+                class="decoration-none bold-links"
+                >GitHub</a
+              >
+            </span>
+          </div>
+          <div id="contact" class="inline-block tile center-text">
+            <span>
+              <a
+                href="mailto:tanaydwivedi095@gmail.com"
+                class="decoration-none bold-links"
+                >Contact Me</a
+              >
+            </span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- This section contains the main for the portfolio consisting of
+            1. Name and profile photo
+            2. Profile statement
+            3. Education
+            4. Projects
+            5. Tech stacks
+            6. Publications
+            7. Achievements
+            8. Certificates
+            9. Certifications
+        -->
+      <div id="name-and-profile-photo">
+        <!-- This section consists of profile picture alongside the name -->
+        <div>
+          <img src="Image.jpg" class="circle" />
+          <div style="display: inline-block">
+            <span id="name">Tanay Dwivedi</span>
+            <div id="profile-statement" class="stack-sub-heading" style="font-size: medium; font-family:cursive;">
+              <!-- This section consists of the profile statement -->
+              Detail-oriented B.Tech student whom seeks to leverage Python, Java, ML,
+              and Spring Boot to provide valuable insights, empower data-driven
+              decisions, and build user-centric websites. Eager to contribute,
+              learn, and grow.
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <center>
+        <div
+          class="accordion"
+          id="accordionPanelsStayOpenExample"
+          style="width: 80%"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                <div class="titles">
+                  <center>Education</center>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne"
+            >
+              <div class="accordion-body">
+                <div id="education">
+                  <!-- This section consists of the education -->
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">B.Tech</h5>
+                        <hr />
+                        <p class="card-text" id="btech-card-text">
+                          <span>Information Technology</span>
+                          <span style="display: block"
+                            >December, 2020 - Ongoing</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="intermediate-card" class="education-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Intermediate (10+2)</h5>
+                        <hr />
+                        <p class="card-text" id="intermediate-card-text">
+                          <span>Physics, Chemistry, Mathematics</span>
+                          <span style="display: block"
+                            >April, 2019 - March, 2020</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="highschool-card" class="education-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Highschool (10)</h5>
+                        <hr />
+                        <p class="card-text" id="highschool-card-text">
+                          <span>Science</span>
+                          <span style="display: block"
+                            >April 2017 - March 2018</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                <div class="titles">
+                  <center>Projects</center>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo"
+            >
+              <div class="accordion-body">
+                <div id="projects">
+                  <!-- This section consists of all the mini projects, code repos, projects -->
+                  <div id="portfolio" class="project-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Portfolio Website
+                        </h5>
+                        <hr />
+                        <p class="card-text" id="portfolio-text">
+                          <span style="display: block"
+                            >Domain: Web Development</span
+                          >
+                          <span style="display: block"
+                            >Technology: HTML5, CSS3, JavaScript, Bootstrap</span
+                          >
+                          <span style="display: block"
+                            >May 2024 - May 2024</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="streamlit-project" class="project-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Skin Cancer Classification GUI using Streamlit
+                        </h5>
+                        <hr />
+                        <p class="card-text" id="streamlit-project-text">
+                          <span style="display: block"
+                            >Domain: Machine Learning</span
+                          >
+                          <span style="display: block"
+                            >Technology: Python, Streamlit</span
+                          >
+                          <span style="display: block"
+                            >November 2023 - December 2023</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="skin-cancer-using-lvit" class="project-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Skin Cancer Classification Using LViT
+                        </h5>
+                        <hr />
+                        <p class="card-text" id="skin-cancer-using-lvit-text">
+                          <span style="display: block"
+                            >Domain: Machine Learning</span
+                          >
+                          <span style="display: block"
+                            >Technology: Python, PyTorch
+                          </span>
+                          <span style="display: block"
+                            >September 2023 - November 2023 </span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="skin-cancer-using-hybrid-model" class="project-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Skin Cancer Classification Using Hybrid CNN Models
+                        </h5>
+                        <hr />
+                        <p class="card-text" id="skin-cancer-using-hybrid-model-text">
+                          <span style="display: block"
+                            >Domain: Machine Learning</span
+                          >
+                          <span style="display: block"
+                            >Technology: Python, Tensorflow, SciPy
+                          </span>
+                          <span style="display: block"
+                            >February, 2023 - June 2023</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="movie-recommendation-system" class="project-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Movie Recommendation System
+                        </h5>
+                        <hr />
+                        <p class="card-text" id="movie-recommendation-system-text">
+                          <span style="display: block"
+                            >Domain: Machine Learning</span
+                          >
+                          <span style="display: block"
+                            >Technology: Python, Scikit-learn
+                          </span>
+                          <span style="display: block"
+                            >September 2022 - October 2022</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="stock-price-prediction" class="project-cards">
+                    <div class="card" style="width: 20rem">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Stock Price Predication System using LSTM
+                        </h5>
+                        <hr />
+                        <p class="card-text" id="stock-price-prediction-text">
+                          <span style="display: block"
+                            >Domain: Machine Learning</span
+                          >
+                          <span style="display: block"
+                            >Technology: Python, Scikit-learn
+                          </span>
+                          <span style="display: block"
+                            >August 2022 - September 2022</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                <div class="titles">
+                  <center>Technology Stacks</center>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree"
+            >
+              <div class="accordion-body">
+                <div id="tech-stacks">
+                  <!-- This section consists of 
+                1. Tech stacks
+                2. Domains of work
+                3. Frameworks
+                4. Softwares worked on
+            -->
+                  <div id="domain-card" class="stack-cards">
+                    <div class="card" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Domains of Work</h5>
+                        <hr />
+                        <p class="card-text">
+                          <div>
+                            <ol>
+                              <li>Machine Learning</li>
+                              <li>Deep Learning</li>
+                              <li>Web Development using Springboot</li>
+                            </ol>
+                          </div>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="technology-card" class="stack-cards">
+                    <div class="card" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Technologies</h5>
+                        <hr />
+                        <p class="card-text">
+                          <div>
+                            <ol>
+                              <li>
+                                <span class="stack-sub-heading">Languages</span>
+                                <span>: Java, Python, JavaScript, HTML5, CSS3 </span>
+                              </li>
+                              <li>
+                                <span class="stack-sub-heading">Frameworks</span>
+                                <span>: Springboot, PyTorch, Tensorflow, Bootstrap, Scipy, Scikit-learn </span>
+                              </li>
+                              <li>
+                                <span class="stack-sub-heading">Softwares and Tools</span>
+                                <span>: Postman, REST APIs </span>
+                              </li>
+                            </ol>
+                          </div>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour"
+              >
+                <div class="titles">
+                  <center>Publications</center>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFour"
+            >
+              <div class="accordion-body">
+                <div id="publications">
+                  <!-- This section consists of the publications that are in progress, accepted -->
+                <div id="paper1-card" class="publication-cards">
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <h5 class="card-title">A Hybrid CNN with Transfer Learning for Skin Cancer Disease Detection</h5>
+                      <hr />
+                      <p class="card-text" id="paper1-card-text">
+                        <span>Accepted</span>
+                        <span style="display: block;">June 2023 - April 2024</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="paper2-card" class="publication-cards">
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <h5 class="card-title">Skin Cancer Classification using Lightweight Vision Image Transformer</h5>
+                      <hr />
+                      <p class="card-text" id="paper2-card-text">
+                        <span>Under Review</span>
+                        <span style="display: block;">September 2023 - In progress</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseSix"
+              >
+                <div class="titles">
+                  <center>Certificates and Certifications</center>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingSix"
+            >
+              <div class="accordion-body">
+                <div id="certificates">
+                  <!-- This section consists of links to all the certificates -->
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Microsoft Certified: Azure AI Fundamental</h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>April,  2023</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Google Cybersecurity Certificate </h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>April,  2023</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Coding Ninjas Front End Web Development </h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>May,  2024</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Acmegrade Machine Learning Training Certificate</h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>August,  2022</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Programming Fundamentals using Python-1</h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>April,  2023</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Programming Fundaments using Python-2</h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>April,  2023</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">DSA in Python</h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>March,  2023</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Quantitative Aptitute Certificate</h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>February,  2023</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="btech-card" class="education-cards">
+                    <div class="card" style="width: 15rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Machine Learning with Python</h5>
+                        <hr />
+                        <p class="card-text">
+                          <span>January,  2023</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </center>
+    </main>
+
+    <br />
+    <br>
+    <footer id="footer" class="background">
+      <!-- This section contains the footer for the portfolio consisting of
+            1. Contact me
+            2. Thank you for visiting
+        -->
+        <div class="flex inline-block tile center-text" id="footer-text">
+          <span style="font-weight: 800;">
+            Thank you for visiting
+          </span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
